@@ -2704,13 +2704,13 @@ input, select, textarea {
 
 	.SupplimentaryImage {
 		font: 10em sans-serif;
-		position: absolute;
+		position: relative;
 		padding: 0;
 		margin: 0;
-		top: 30%;
-		left: 25%;
+		margin-bottom: -10rem;
+		top: -20rem;
 		transform: (-50%, -50%);
-		color: hsla(0, 0%, 83%, 50%);		
+		color: hsla(0, 0%, 83%, 50%);	
 	}
 	.SupplimentaryImage:hover {
 		color: #18bfef !important;
